@@ -12,7 +12,13 @@ Experiments on the MS COCO test-dev, PASCAL VOC, and custom OVSD datasets show a
 
 ### Setup
 The code run using Python (3.6), Pytorch support (Pytorch > 1.8.0) with CUDA support (CUDA > 10.1), and torchvision.
-You can use Anaconda to create a Python3.6 environment using the environment.yml file.
+You can use Anaconda to create a Python3.6 environment using the requirements.txt file.
+
+### Dataset
+The COCO 2017 datasets are available from the website:
+https://cocodataset.org/.
+The VOC 2012 datasets  are available from the website:
+https://pjreddie.com/projects/pascal-voc-dataset-mirror/.
 
 ### Instance segmentation results on the COCO val
 | Backbone  |  Style  |   AP  | AP{50} | AP{75} | AP{S} | AP{M} | AP{L} |
@@ -27,10 +33,6 @@ You can use Anaconda to create a Python3.6 environment using the environment.yml
 ### Instance segmentation results on the OVSD
 | Backbone |  Style  |  AP   | AP{50} | AP{75} | AP{S} | AP{M} | AP{L} | 
 |R-101-FPN | pytorch | 32.86 | 55.49  | 34.21  | 12.93 | 33.82 | 48.15 |
-
-### Installation
-
-Please refer to [Installation](docs/en/get_started.md/#Installation) for installation instructions.
 
 
 
