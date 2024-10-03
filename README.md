@@ -10,6 +10,10 @@ This module utilizes a fine-grained multi-layer receptive field extraction mecha
 ### Performance:
 Experiments on the MS COCO test-dev, PASCAL VOC, and custom OVSD datasets show accuracy improvements of 1.8%, 3.29%, and 1.3%, respectively. Our approach outperforms several state-of-the-art methods and offers valuable insights for advancing research on multi-scale instance segmentation of ships in complex environments.
 
+### Setup
+The code run using Python (3.6), Pytorch support (Pytorch > 1.8.0) with CUDA support (CUDA > 10.1), and torchvision.
+You can use Anaconda to create a Python3.6 environment using the environment.yml file.
+
 ### Instance segmentation results on the COCO val
 | Backbone  |  Style  |   AP  | AP{50} | AP{75} | AP{S} | AP{M} | AP{L} |
 
