@@ -1,5 +1,5 @@
 ### Global Recurrent Mask R-CNN (GR R-CNN)
-This repository implements the Global Recurrent Mask R-CNN (GR R-CNN), an end-to-end algorithm aimed at improving multi-scale segmentation of ship instances in marine environments. Key Features:
+This repository presents the Global Recurrent Mask R-CNN (GR R-CNN), an end-to-end algorithm built on the foundation of MMDetection by OpenMMLab, specifically designed to improve the multi-scale segmentation of ship instances in marine environments. Key Features:
 
 ### Recurrent Enhanced Feature Pyramid Network (RE-FPN):
 A novel module that uses a feature recurrence and bidirectional chaining fusion mechanism to deeply integrate both deep and shallow features. This enables effective extraction of multi-scale features and semantic information from images.
