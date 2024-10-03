@@ -35,6 +35,7 @@ https://pjreddie.com/projects/pascal-voc-dataset-mirror/.
 
 ### Instance segmentation results on the OVSD
 | Backbone |  Style  |  AP   | AP{50} | AP{75} | AP{S} | AP{M} | AP{L} | 
+
 |R-101-FPN | pytorch | 32.86 | 55.49  | 34.21  | 12.93 | 33.82 | 48.15 |
 
 
