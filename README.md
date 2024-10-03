@@ -16,6 +16,14 @@ Experiments on the MS COCO test-dev, PASCAL VOC, and custom OVSD datasets show a
 The code run using Python (3.6), Pytorch support (Pytorch > 1.8.0) with CUDA support (CUDA > 10.1), and torchvision.
 You can use Anaconda to create a Python3.6 environment using the requirements.txt file.
 
+## Training: 
+### 1. Single GPU Training:
+To train the model on a single GPU, use the following command:
+ python tools/train.py configs/gr_rcnn_config.py
+### 2. Multi-GPU Training:
+For training on multiple GPUs, you can use the following command:
+ CUDA_VISIBLE_DEVICES=0,1,2,3  python -m torch.distributed.launch --nproc_per_node=4 ./tools/train.py  configs/gr_rcnn_config.py  --launcher pytorch
+
 ## Dataset:
 The COCO 2017 datasets are available from the website:
 https://cocodataset.org/.
