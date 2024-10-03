@@ -19,10 +19,10 @@ You can use Anaconda to create a Python3.6 environment using the requirements.tx
 ## Training: 
 ### 1. Single GPU Training:
 To train the model on a single GPU, use the following command:
- python tools/train.py configs/gr_rcnn_config.py
+ python tools/train.py configs/gr_rcnn/gr_rcnn_r101_fpn_1x.py
 ### 2. Multi-GPU Training:
 For training on multiple GPUs, you can use the following command:
- CUDA_VISIBLE_DEVICES=0,1,2,3  python -m torch.distributed.launch --nproc_per_node=4 ./tools/train.py  configs/gr_rcnn_config.py  --launcher pytorch
+ CUDA_VISIBLE_DEVICES=0,1,2,3  python -m torch.distributed.launch --nproc_per_node=4 ./tools/train.py  configs/gr_rcnn/gr_rcnn_r101_fpn_1x.py  --launcher pytorch
 
 ## Dataset:
 The COCO 2017 datasets are available from the website:
