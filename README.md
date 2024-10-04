@@ -10,7 +10,7 @@ A novel module that uses a feature recurrence and bidirectional chaining fusion 
 This module utilizes a fine-grained multi-layer receptive field extraction mechanism to improve the capture of global and multi-scale features. In combination with RE-FPN, it effectively enhances the overall performance of ship instance segmentation.
 
 ## Performance:
-Experiments on the MS COCO test-dev, PASCAL VOC, and custom OVSD datasets show accuracy improvements of 1.8%, 3.29%, and 1.3%, respectively. Our approach outperforms several state-of-the-art methods and offers valuable insights for advancing research on multi-scale instance segmentation of ships in complex environments.
+Experiments on the MS COCO test-dev, PASCAL VOC, and custom OVSD datasets show accuracy improvements of 1.8%, 3.29%, and 1.3%, respectively, compared to Mask R-CNN. Our approach outperforms several state-of-the-art methods and offers valuable insights for advancing research on multi-scale instance segmentation of ships in complex environments.
 
 ## Setup:
 The code run using Python (3.6), Pytorch support (Pytorch > 1.8.0) with CUDA support (CUDA > 10.1), and torchvision.
