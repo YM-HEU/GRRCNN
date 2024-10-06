@@ -34,7 +34,7 @@ https://pjreddie.com/projects/pascal-voc-dataset-mirror/.
 
 ## Results:
 ### Instance segmentation results on the COCO val
-| Backbone  |   Style   |   AP  | AP{50} | AP{75} | AP{S} | AP{M} | AP{L} |
+| Backbone  |   Style   |   AP  | AP@50 | AP@75 | AP@S | AP@M | AP@L |
 
 | R-101-FPN | pytorch | 37.13 | 58.29  | 39.96  | 17.41 | 40.17 | 54.30 |
 
